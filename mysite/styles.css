@@ -1,0 +1,30 @@
+body {
+    color: #69ff00;
+    font-size: 18px;
+    background: url(img/2.jpg) no-repeat fixed;
+}
+
+#rm {
+    font-size: 87px;
+    color: #aa0e0e;
+    text-indent: 400px;
+}
+
+#of {
+    color: #aa0b0b;
+    font-size: 50px;
+    text-indent: 600px;
+}
+
+#pr {
+    font-size: 40px;
+}
+
+#ep {
+    font-size: 40px;
+}
+
+.ur>a:hover {
+    color: #a9f704;
+    font-style: italic;
+}

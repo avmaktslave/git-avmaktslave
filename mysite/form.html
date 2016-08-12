@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="rm"><strong>RAGE OF MADNESS</strong></h1>
+      <h2 id="of">Официальный сайт</h2>
+    </header>
+    <hr>
+    <form action="file.php" method="post">
+       Логин<br>
+          <input type="text" name="log" placeholder="Логин" required><br>
+       Пароль<br>
+          <input type="text" name="password" placeholder="Пароль" required><br>
+       Поторить пароль<br>
+          <input type="text" name="password" placeholder="Пароль" required><br>
+       Email<br>
+          <input type="text" name="Email" placeholder="Email" required><br>
+        Имя<br>
+          <input type="text" name="first_name" placeholder="имя"><br>
+        Фамилия<br>
+          <input type="text" name="second_name" placeholder="фамилия"><br>
+        Пол<br>
+        <input type="radio" name="sex" value="0">М<br>
+        <input type="radio" name="sex" value="1">Ж<br>
+        Год рождения
+        <select name="month" >
+          <option value="0">..</option>
+          <option value="01">Январь</option>
+          <option value="02">Февраль</option>
+          <option value="03">Март</option>
+          <option value="04">Апрель</option>
+          <option value="05">Май</option>
+          <option value="06">Инюнь</option>
+          <option value="07">Июль</option>
+          <option value="08">Август</option>
+          <option value="09">Сентябрь</option>
+          <option value="10">Октябрь</option>
+          <option value="11">Ноябрь</option>
+          <option value="12">Декабрь</option>
+        </select><br>
+        <textarea name="opinion" placeholder="Ваш отзыв"></textarea>
+
+        <hr>
+        <input type="submit" value="Регистрация">
+        <input type="reset" value="Сбросить">
+
+
+    </form>
+    <hr>
+    <footer>
+    &copy;
+   </footer>
+  </body>
+</html>
