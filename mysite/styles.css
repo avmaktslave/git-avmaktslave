@@ -1,13 +1,21 @@
+@font-face {
+    font-family:SpecialElite;
+    src:url(fonts/SpecialElite.ttf);
+}
+
 body {
     color: #69ff00;
     font-size: 18px;
     background: url(img/3.jpg) no-repeat fixed;
 }
+h1{
+    font-family: SpecialElite;
 
+}
 #rm {
-    font-size: 87px;
+    font-size: 95px;
     color: #aa0e0e;
-    text-indent: 400px;
+    text-indent: 420px;
 }
 
 #of {
